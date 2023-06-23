@@ -1,4 +1,4 @@
-#include <iostrea>
+#include <iostream>
 using namespace std;
 
 class Queues {
@@ -11,5 +11,11 @@ public:
 		REAR = -1;
 	}
 
+	void insert() {
+		int num;
+		cout << "Enter a number: ";
+		cin >> num;
+		cout << endl;
+	}
 
 };
