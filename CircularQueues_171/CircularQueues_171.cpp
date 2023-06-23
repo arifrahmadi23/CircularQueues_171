@@ -21,6 +21,6 @@ public:
 		if ((FRONT && REAR == max - 1) || (FRONT == REAR + 1)) {
 			cout << "\nQueue overflow\n";
 			return;
-		}s
+		}
 	}
 };
